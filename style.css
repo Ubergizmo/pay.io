@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+
+}
+
+.pay{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.block{
+    background-color: rgba(4, 4, 4, 0.925);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    height: 525px;
+
+}
+
+#sign{
+    color: white;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: black;
+    border-radius: 10px;
+    height: 45px; ;
+    width: 100px;
+}
+
+.txt{
+    text-align: center;
+}
+
+h1,h5,.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 17vh;
+    color: white;
+}
+
+h5{
+    padding-top:5px;
+    color: rgb(195, 195, 195);
+    font-size: 20px;
+}
+
+.exept{
+    color: #e0f54e;
+}
+
+.buttons{
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#exep{
+    background-color: #e0f54e;
+    height: 50px;
+}
+
+.btn{
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 10px;
+    height: 70px;
+    width: 170px;
+}
+
+#btn_{
+    border: 0;
+    color: #fff;
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 70px; 
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
